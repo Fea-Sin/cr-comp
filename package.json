@@ -1,0 +1,51 @@
+{
+  "name": "rc-comp",
+  "version": "1.0.0",
+  "description": "a template about create react component",
+  "scripts": {
+    "start": "rc-tools run server",
+    "build": "rc-tools run build",
+    "lint": "rc-tools run lint",
+    "compile": "rc-tools run compile --babel-runtime",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "feasin",
+  "config": {
+    "port": 8018
+  },
+  "files": [
+    "es",
+    "lib",
+    "assets/*.css"
+  ],
+  "main": "./lib/index",
+  "module": "./es/index",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.0.1",
+    "jest": "^21.0.0",
+    "pre-commit": "1.x",
+    "rc-tools": "7.x",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-test-renderer": "^16.8.0",
+    "rmc-tools": "^0.0.4"
+  },
+  "dependencies": {
+    "babel-runtime": "6.x",
+    "classnames": "2.x",
+    "dom-scroll-into-view": "1.x",
+    "ismobilejs": "^0.5.1",
+    "mini-store": "^2.0.0",
+    "mutationobserver-shim": "^0.3.2",
+    "prop-types": "^15.5.6",
+    "rc-animate": "2.x",
+    "rc-trigger": "^2.3.0",
+    "rc-util": "^4.1.0",
+    "resize-observer-polyfill": "^1.5.0"
+  },
+  "license": "MIT"
+}
