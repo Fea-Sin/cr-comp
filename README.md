@@ -3,18 +3,6 @@
 
 react component
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![gemnasium deps][gemnasium-image]][gemnasium-url]
-[![node version][node-image]][node-url]
-[![npm download][download-image]][download-url]
-
-
-## Screenshot
-
-![alt](https://tfsimg.alipay.com/images/T19vReXg0oXXXXXXXX.png)
-
 
 ## Usage
 
