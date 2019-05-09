@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import Testone from 'comta'
+import Testone from 'cr-comp'
 
 const reactContainer = document.getElementById('__react-content');
 
