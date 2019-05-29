@@ -40,7 +40,6 @@ class TestOne extends PureComponent {
       <Provider store={this.store}>
         <div {...props} ref={node => this.comtaTestone = node}>
           <span>comta testone</span>
-          {}
         </div>
       </Provider>
     )
