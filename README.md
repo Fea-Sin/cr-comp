@@ -15,22 +15,14 @@ use cr-comp create your react component
 ## Development
 
 ```
-npm install
+cnpm install
 npm start
 ```
 
 ## Example
 
-http://localhost:8001/examples/index.md
+http://localhost:8018/examples/index.md
 
-
-
-## Test Case
-
-```
-npm test
-npm run chrome-test
-```
 
 
 ## License
