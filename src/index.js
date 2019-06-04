@@ -1,49 +1,36 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent, Component } from 'react'
 import PropTypes from 'prop-types'
-import { Provider, create } from 'mini-store'
-import { noop } from './util';
+import classNames from 'classnames'
+import OuiDom from './utils/ouiDomUtils'
 
-class TestOne extends PureComponent {
-  static propTypes = {
-    mode: PropTypes.oneOf(['A', 'B', 'C']),
-    className: PropTypes.string,
-    onClick: PropTypes.func,
-    style: PropTypes.object,
-  }
-
-  static defaultProps = {
-    mode: 'A',
-    onClick: noop,
-    className: '',
-    style: {},
-  }
+class Comp extends PureComponent {
 
   constructor(props) {
     super(props)
-    this.store = create({
-      // selectKeys,
-      // activeKey,
-    })
+    this.state = {
+    }
   }
-  
+
   componentDidMount() {
-    console.log('comta-testone-didmount')
+
+  }
+  componentDidUpdate(prevProps, prevState) {
+    // console.log('component up date', prevState)
   }
 
-  componentDidUpdate() {
-    console.log('comta-testone-didupdatemount')
-  }
+  render () {
 
-  render() {
-    let {...props} = this.props
+    
     return (
-      <Provider store={this.store}>
-        <div {...props} ref={node => this.comtaTestone = node}>
-          <span>comta testone</span>
-        </div>
-      </Provider>
+      <div>COMP IS DONE</div>
     )
   }
 }
 
-export default TestOne
+Comp.propTypes = {
+
+}
+Comp.defaultProps = {
+
+}
+export default Comp
