@@ -22,7 +22,7 @@ class Comp extends PureComponent {
 
     
     return (
-      <div>COMP IS DONE</div>
+      <div className="hello">COMP IS DONE</div>
     )
   }
 }

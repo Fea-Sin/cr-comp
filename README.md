@@ -1,5 +1,4 @@
 # cr-comp
----
 
 react component
 
