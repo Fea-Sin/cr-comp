@@ -22,6 +22,13 @@ npm start
 
 http://localhost:8018/examples/index.md
 
+## Test
+  ```js
+  npm test
+  
+  npm run coverage
+  ```
+
 
 
 ## License
