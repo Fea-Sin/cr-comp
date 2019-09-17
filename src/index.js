@@ -20,17 +20,18 @@ class Comp extends PureComponent {
 
   render () {
 
+    const { prefixCls } = this.props
     
     return (
-      <div className="hello">COMP IS DONE</div>
+      <div className={`${prefixCls}-text hello`}>COMP IS DONE</div>
     )
   }
 }
 
 Comp.propTypes = {
-
+  prefixCls: PropTypes.string
 }
 Comp.defaultProps = {
-
+  prefixCls: 'cr-app'
 }
 export default Comp
