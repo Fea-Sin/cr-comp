@@ -7,7 +7,7 @@
     "build": "rc-tools run build",
     "lint": "rc-tools run lint",
     "compile": "rc-tools run compile --babel-runtime",
-    "test": "jest --color",
+    "test": "jest",
     "coverage": "jest --coverage "
   },
   "keywords": [],
