@@ -16,6 +16,7 @@
     "port": 8018,
     "entry": {
       "cr-comp": [
+        "./assets/index.less",
         "./src/index.js"
       ]
     }
