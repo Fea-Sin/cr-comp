@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
-import Testone from 'cr-comp'
+import Testone from '..'
 import '../assets/index.less'
 
 const reactContainer = document.getElementById('__react-content');
