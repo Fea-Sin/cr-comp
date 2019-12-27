@@ -5,8 +5,10 @@ react component
 
 ## Usage
 
-```jsx
 use cr-comp create your react component
+
+```jsx
+git clone https://github.com/Fea-Sin/cr-comp.git your-project-name
 ```
 
 ## API
