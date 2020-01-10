@@ -9,7 +9,7 @@ describe('cr-comp', () => {
     const wrapper = mount(
       <Comp />
     )
-    expect(wrapper.find('.hello').text()).toBe('COMP IS DONE')
+    expect(wrapper.find('.hello').text()).toBe('HELLO COMP')
   })
   it('snapshot to match', () => {
     const wrapper = render(

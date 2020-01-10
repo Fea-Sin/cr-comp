@@ -4,6 +4,6 @@ exports[`cr-comp snapshot to match 1`] = `
 <div
   class="cr-app-text hello"
 >
-  COMP IS DONE
+  HELLO COMP
 </div>
 `;

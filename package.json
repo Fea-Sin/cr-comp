@@ -7,7 +7,8 @@
     "build": "rc-tools run build",
     "lint": "rc-tools run lint",
     "compile": "rc-tools run compile --babel-runtime",
-    "test": "jest",
+    "pub": "npm run test && npm run build && npm run compile && npm publish",
+    "test": "jest --no-cache --updateSnapshot",
     "coverage": "jest --coverage "
   },
   "keywords": [],
@@ -29,10 +30,17 @@
   ],
   "main": "./lib/index",
   "module": "./es/index",
-  "jest":{
-    "setupFiles": ["./tests/setup.js"],
-    "collectCoverageFrom": ["src/**/*", "!src/utils/**/*"],
-    "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "jest": {
+    "setupFiles": [
+      "./tests/setup.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*",
+      "!src/utils/**/*"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
     "transform": {
       "\\.jsx?$": "./node_modules/rc-tools/scripts/jestPreprocessor.js"
     }
