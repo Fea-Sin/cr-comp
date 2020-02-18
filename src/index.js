@@ -1,7 +1,5 @@
-import React, { PureComponent, Component } from 'react'
-import PropTypes from 'prop-types'
-import classNames from 'classnames'
-import OuiDom from './utils/ouiDomUtils'
+import React, { PureComponent, Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Comp extends PureComponent {
 
